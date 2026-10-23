@@ -89,3 +89,7 @@ Higher-study support page को website में कॉलेज के रू
 ## इस update को live कैसे करें
 
 नई ZIP Extract All करें। अपने existing GitHub repository में Add file → Upload files से extracted folder के अंदर की सभी files और पूरा assets folder upload करें। Root में index.html रहे। Commit changes करें और Pages publication पूरी होने दें। फिर Ctrl+F5 से website refresh करें। Repository का नाम बदलना जरूरी नहीं है; पुराना live link चलता रहेगा। सिर्फ ZIP upload करने से website update नहीं होगी।
+
+## Latest package / नया logo और location
+
+इस पूरे package का folder bal-vikas-website है। Logo अपनी assets/school-emblem.png file है। नया Maps link mapUrl में है। Homepage में emblem, quick links और navy/gold/red design है। सभी website files साथ upload करें।

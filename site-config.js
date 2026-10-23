@@ -1,19 +1,18 @@
-/* PUBLIC SHARED SETTINGS. No passwords, student records or secret keys.
-Keep studentCount / teacherCount empty until confirmed.
-Gallery imageUrl: direct public image URL or assets/file. albumUrl: shared album link. */
+/* EDIT YOUR SHARED PUBLIC INFORMATION HERE.
+No passwords, student records, or secret keys. Empty service links remain unavailable. */
 window.SITE_CONFIG = {
   "name": "Bal Vikas Vidyalaya",
   "shortName": "Bal Vikas",
   "initials": "BBV",
   "tagline": "LADI, BHURKUNDA · EST. 1989",
   "demoMode": false,
-  "logoUrl": "",
-  "faviconUrl": "",
+  "logoUrl": "assets/school-emblem.png",
+  "faviconUrl": "assets/school-emblem.png",
   "phone": "+91 9431500007",
   "email": "",
   "address": "Ladi, Bhurkunda, Ramgarh, Jharkhand",
   "officeHours": "Please call the school office to confirm visiting hours.",
-  "mapUrl": "https://maps.app.goo.gl/c1V4M8KxQt6oRAzc7",
+  "mapUrl": "https://maps.app.goo.gl/MiQ6AoN9YSDRWDR2A?g_st=ac",
   "googleFormUrl": "",
   "prospectusUrl": "",
   "feesPortalUrl": "",
@@ -24,10 +23,10 @@ window.SITE_CONFIG = {
   "studentCount": "",
   "teacherCount": "",
   "teacherDescription": "Ask the school office about subject teachers, qualifications, and classroom support.",
-  "heroTitle": "Your neighbourhood school. A world of possibilities.",
+  "heroTitle": "Rooted in values. Ready for tomorrow.",
   "heroDescription": "Schooling through Class XII, computer learning, activities, and guidance for the next step after school—all through one familiar school community.",
-  "heroImageUrl": "assets/school-board.png",
-  "heroImageAlt": "School signboard supplied by the school: Bal Vikas Vidyalaya, Ladi, Bhurkunda",
+  "heroImageUrl": "assets/school-emblem.png",
+  "heroImageAlt": "Bal Vikas Vidyalaya emblem: a torch, an open book, and golden branches",
   "school": {
     "title": "Learning today. Confidence for tomorrow.",
     "description": "Bal Vikas Vidyalaya supports learning from Classes I–X and senior secondary Classes XI–XII, alongside computer classes and student activities. Contact the office for available subjects, eligibility, and admission details.",

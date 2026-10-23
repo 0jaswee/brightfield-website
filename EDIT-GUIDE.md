@@ -71,3 +71,21 @@ GitHub repository → site-config.js → pencil/Edit → बदलाव → Com
 - assets: photos, logo, illustrations और PDFs।
 
 यह browser में सीधे काम करता है: कोई build tool या command जरूरी नहीं। JavaScript बंद हो तो shared content नहीं भरता; basic fallback navigation है। आगे बड़े production project में templates/static-site generator इस्तेमाल कर सकते हैं।
+
+## Bal Vikas Vidyalaya — इस update के नए settings
+
+- established: 1989; udise: 20241304404.
+- studentCount / teacherCount: पुष्टि होने तक खाली रखें। संख्या देने पर School page पर दिखेगी।
+- whatsappNumber: country code सहित केवल digits (वर्तमान 919431500007)।
+- mapUrl: दिए हुए Google Maps location का link।
+- feesPortalUrl: भविष्य के private fee service का address; अभी खाली है। कोई student fee data public config में न रखें।
+- gallery की हर entry: imageUrl, alt, caption, category, date, albumUrl। Category filters अपने-आप बनते हैं।
+- Sample image 1 और 2 illustrations हैं, वास्तविक school event photos नहीं। इन्हें अपनी photos से बदलें।
+
+Google Drive का सामान्य sharing link photo का direct image link नहीं होता। Shared album/folder खोलने का link albumUrl में डाल सकते हैं। Website पर image दिखाने के लिए सबसे सरल तरीका photo को assets में रखना और imageUrl में उसका path देना है। Drive images को अपने-आप sync करने का integration इस version में नहीं है।
+
+Higher-study support page को website में कॉलेज के रूप में नहीं दिखाया गया है। college.html filename पुरानी links न टूटें इसलिए रखा है। Degree देने वाली संस्था संबंधित college/university होगी।
+
+## इस update को live कैसे करें
+
+नई ZIP Extract All करें। अपने existing GitHub repository में Add file → Upload files से extracted folder के अंदर की सभी files और पूरा assets folder upload करें। Root में index.html रहे। Commit changes करें और Pages publication पूरी होने दें। फिर Ctrl+F5 से website refresh करें। Repository का नाम बदलना जरूरी नहीं है; पुराना live link चलता रहेगा। सिर्फ ZIP upload करने से website update नहीं होगी।
